@@ -1,0 +1,16 @@
+class Solution:
+    def allCellsDistOrder(self, rows: int, cols: int, rCenter: int, cCenter: int) -> List[List[int]]:
+        dirs = [(+1, -1), (+1, +1), (-1, +1), (-1, -1)]
+        result = [[rCenter, cCenter]]
+        dist = 1
+        while len(result) < rows * cols:
+            r = rCenter - dist
+            c = cCenter
+            for rDelta, cDelta in dirs:
+                for _ in range(dist):
+                    if r >= 0 and r < rows and c >= 0 and c < cols:
+                        result.append([r, c])
+                    r += rDelta
+                    c += cDelta
+            dist += 1
+        return result
