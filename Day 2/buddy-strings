@@ -1,6 +1,6 @@
 class Solution:
     def buddyStrings(self, s: str, goal: str) -> bool:
-        if len(s) != len(goal):
+        if len(s) != len(goal)
             return False
         if s == goal :
             frequency = [0]*26
