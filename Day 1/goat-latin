@@ -10,7 +10,7 @@ class Solution:
             else:
                 goat_word = word[1:] + word[0] + "ma"
             
-            # Add 'a' based on the word index (1-indexed)
+            'a' based on the word index (1-indexed)
             goat_word += 'a' * (index + 1)
             goat_latin_words.append(goat_word)
 
