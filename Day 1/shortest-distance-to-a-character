@@ -1,7 +1,7 @@
 class Solution:
     def shortestToChar(self, s: str, c: str) -> List[int]:
         a,n=[],len(s)
-        for i in range(n):
+        for i in range(n)
             if s[i]==c
                 a.append(i)
         answer=[]
