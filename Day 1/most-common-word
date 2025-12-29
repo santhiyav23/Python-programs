@@ -1,5 +1,5 @@
       paragraph=paragraph.lower()
-        s=""; di={}
+        s="" di={}
         for i in paragraph:
             if(i not in ("!?',;. ")):
                 s=s+i
