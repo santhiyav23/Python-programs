@@ -1,5 +1,5 @@
 class Solution:
-    def countLargestGroup(self, n: int) -> int:
+    def countLargestGroup(self, n: int) -> int
         from collections import defaultdict
 
         digit_count = defaultdict(int)
