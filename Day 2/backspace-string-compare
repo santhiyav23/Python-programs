@@ -3,7 +3,7 @@ class Solution:
         a=[]
         b=[]
         for i in range(len(s)):
-            if s[i]!='#':
+            if s[i]!='#'
                 a.append(s[i])
             else:
                 if len(a)>0:
